@@ -1,0 +1,2 @@
+Run in wsl:
+OPENCART_PORT=8081 PHPADMIN_PORT=8889 LOCAL_IP=$(hostname -I | grep -o "^[0-9.]*") docker compose up -d

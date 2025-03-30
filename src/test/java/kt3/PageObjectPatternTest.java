@@ -17,7 +17,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
 public class PageObjectPatternTest {
     private static final WebDriver driver = new ChromeDriver();
-    private static final String URL = "http://192.168.0.100:8081";
+    private static final String URL = "http://192.168.0.107:8081";
     private static String registeredEmail;
     private static String registeredPassword;
 

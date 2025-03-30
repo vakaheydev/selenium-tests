@@ -84,7 +84,7 @@ public class MainPage {
     }
 
     public int getShoppingCartSize() {
-        home();
+//        home();
         String text = driver.findElement(By.xpath("//button[text()[contains(., 'item(s) -')]]")).getText();
         int leftIndex = text.indexOf(" ");
 
