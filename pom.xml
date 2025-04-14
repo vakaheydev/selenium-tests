@@ -77,6 +77,12 @@
       <version>${selenium.version}</version>
     </dependency>
 
+    <dependency>
+      <groupId>io.appium</groupId>
+      <artifactId>java-client</artifactId>
+      <version>9.4.0</version>
+    </dependency>
+
 
     <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-chrome-driver -->
     <dependency>
